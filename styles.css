@@ -1,0 +1,9 @@
+
+.resumename{
+    display: inline-block;
+    background-color: maroon;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+}

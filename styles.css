@@ -1,9 +1,16 @@
+*{text-align: center;
+}
 
 .resumename{
+    text-align: center;
     display: inline-block;
     background-color: maroon;
     color: white;
     margin: 10px;
-    padding: 20px;
-    width: 200px;
+    padding: 30px;
+    width: 250px;
+}
+
+.contact{
+    display: inline-block;
 }

@@ -2,7 +2,7 @@
 body{
     text-align: center;
     margin: 0 auto;
-    width: 800px;
+    width: 850px;
 }
 
 
@@ -39,4 +39,30 @@ p{
 }
 
 .blurb{
+    padding: 0%;
     display: inline-block;
+    text-align: left;
+    border-bottom: 2px dotted maroon;
+}
+
+h4{
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 6px;
+    padding-bottom: 2px;
+}
+
+h5{
+    margin: 1px;
+    padding-bottom: 0;
+    font-style: italic;
+}
+
+ul{
+    margin: 3px;
+    padding: 3px;
+}
+
+li{
+    padding-bottom: 3px;
+}

@@ -3,14 +3,22 @@ body{
     text-align: center;
     margin: 0 auto;
     width: 850px;
+    padding: 3px;
+}
+
+.paper{
+    padding: 15px;
     outline: solid maroon thin;
 }
 
+.skills{
+    display: inline-block;
+    float: right;
+}
 
-h3{
-    text-align: left;
-    padding: 0;
-    border-bottom: 2px dotted maroon;
+.education{
+    display: inline-block;
+    float: left;
 }
 
 p{

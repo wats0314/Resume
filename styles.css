@@ -32,12 +32,7 @@ body{
 
 
 #view{
-    font-size: large;
-    display: inline-block;
-    vertical-align: middle;
-    float: right;
-    padding-top: 300px;
-    padding-right: 0px;
+justify-content: center;
 }
 
 @keyframes fadeInAnimation {

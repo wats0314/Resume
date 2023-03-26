@@ -19,12 +19,24 @@ body{
   }
 
 #view{
-    font-size: large;
+    justify-content: center;
+}
+
+button { 
+    background-color: lime;
+    border: none;
+    color: black;
+    text-align: center;
     display: inline-block;
-    vertical-align: middle;
-    float: right;
-    padding-top: 300px;
-    padding-right: 0px;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+
+button:hover{
+    background-color: darkgreen;
+    color: white;
 }
 
 @keyframes blink {

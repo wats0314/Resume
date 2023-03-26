@@ -10,8 +10,11 @@ body{
 
 }
 #linkedin:visited{
+    color: lime;    
+}
+
+#linkedin{
     color: lime;
-    
 }
 
 @keyframes typing {

@@ -1,14 +1,17 @@
 <!DOCTYPE html>
-<html lang="en"></html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <Title>Mitch's Resume</Title>
         <link rel="stylesheet" href="styles.css">
-        <script type="text/javascript" src="scripts.js"></script>
     </head>
 </html>
     <body id="resumetext">
-   <!---<button onclick="typeWriter()">Click me</button> -->
+        <form id="view">
+            <h2>View by Section:</h2>
+            <button id="objective">objective</button>
+        </form>
+
        <div class="paper">
        <div class="topblock">
         <div class="resumename">
@@ -26,13 +29,15 @@
         </div>
          </div>
         <div class="blurb">
+            <div id="goals">
              <h3>OBJECTIVE</h3>
-                <p>
+                <p id="obj">
                  Operations Manager with 3+ years of supervisory experience. Experience in personnel management, planning large volumes of work, 
                  and employing lean manufacturing methodologies to improve processes. Possesses a wide variety of skills including data analytics, 
                 personnel management, and KPI metric design in addition to wide knowledge of computer hardware and software. 
                 Looking to leverage my “go-getter” mentality for an operations management opportunity in the Twin Cities.   
                  </p>
+                </div>
          <div class="blurb">      
             <h3>
                 PROFESSIONAL EXPERIENCE
@@ -79,7 +84,7 @@
         <div class="skills">
             <h3>ADDITIONAL SKILLS</h3>
             <ul>
-                <li>Microsoft Office with focus in Excel and Sheets/li>
+                <li>Microsoft Office with focus in Excel and Sheets</li>
                 <li>ERPs – Infor Cloud Suite and Dynamics NAV</li>
                 <li>Public speaking to large audiences (over 100 people)</li>
                 <li>Soft skills - diplomatic and easy to work with</li>
@@ -92,8 +97,8 @@
         </div>
 
 
-
+        <script type="text/javascript" src="scripts.js"></script>
 
     </body>
-
+    </html>
     

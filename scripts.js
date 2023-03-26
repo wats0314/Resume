@@ -1,11 +1,9 @@
-/* var i = 0;
-var txt = 'Lorem ipsum dummy text blabla.';
-var speed = 50;
-
-function typeWriter() {
-  if (i < txt.length) {
-    document.getElementById("resumetext").innerHTML += txt.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
-  }
-}
+window.addEventListener('load', function() {
+    var objectiveButton = document.getElementById('objective');
+    var objElement = document.getElementById('obj');
+  
+    objectiveButton.addEventListener('click', function(event) {
+      event.preventDefault();
+      objElement.style.display = 'none';
+    });
+  });

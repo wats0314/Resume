@@ -3,16 +3,26 @@ body{
     background-image: url("images/U1c.gif");
     color: white;
     text-align: center;
-    margin: 0 auto;
-    width: 850px;
-    padding: 3px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
 }
 
 @keyframes typing {
     from { width: 0 }
     to { width: 100% }
   }
+
+  #objective{
+    visibility: inherit;
+  }
+
+#view{
+    font-size: large;
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+    padding-top: 300px;
+    padding-right: 0px;
+}
 
 @keyframes blink {
     from { border-color: transparent }
@@ -21,8 +31,15 @@ body{
 
 .paper{
     padding: 20px;
-    //* outline: solid rgb(12, 247, 28) thin; *//
     background-image: url("images/U1c.gif");
+    margin: 0 auto;
+    width: 850px;
+    padding: 3px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.goals {
+    display: inline-block;
 }
 
 h3{
@@ -100,4 +117,8 @@ ul{
 
 li{
     padding-bottom: 3px;
+}
+
+#obj{
+    display: inherit;
 }

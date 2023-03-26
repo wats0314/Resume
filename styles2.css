@@ -1,17 +1,8 @@
 
 body{
-
-    animation: fadeInAnimation ease 4s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    background-image: url("images/U1c.gif");
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
 
-}
-#linkedin:visited{
-    color: lime;
-    
 }
 
 @keyframes typing {
@@ -23,7 +14,6 @@ body{
     visibility: inherit;
   }
 
-
 #view{
     font-size: large;
     display: inline-block;
@@ -33,27 +23,18 @@ body{
     padding-right: 0px;
 }
 
-@keyframes fadeInAnimation {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-     }
-}
-
 @keyframes blink {
     from { border-color: transparent }
-    to { border-color: rgb(0, 255, 34); }
+    to { border-color: maroon; }
   }  
 
 .paper{
     padding: 20px;
-    background-image: url("images/U1c.gif");
     margin: 0 auto;
     width: 850px;
-    padding: 3px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    outline: dotted 2px maroon;
 }
 
 .goals {
@@ -61,13 +42,8 @@ body{
 }
 
 h3{
-    color: rgb(79, 236, 0);
+    color: maroon;
     border-bottom: 2px dotted;
-    overflow: hidden;
-    width: 0;
-    white-space: nowrap;
-    animation: 
-    typing 3s steps(60, end) forwards;
 }
 
 .skills{
@@ -88,7 +64,7 @@ p{
 }
 
 .resumename{
-    color: lawngreen;
+    color: maroon;
     float: left;
     text-align: center;
     display: inline-block;

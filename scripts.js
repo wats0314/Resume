@@ -1,9 +1,4 @@
-window.addEventListener('load', function() {
-    var objectiveButton = document.getElementById('objective');
-    var objElement = document.getElementById('obj');
-  
-    objectiveButton.addEventListener('click', function(event) {
-      event.preventDefault();
-      objElement.style.display = 'none';
-    });
-  });
+function changeSheet(){
+event.preventDefault();
+document.getElementById("styler").setAttribute("href","styles.css");
+console.log("run")}

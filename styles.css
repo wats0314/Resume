@@ -7,6 +7,7 @@ body{
     background-image: url("images/U1c.gif");
     color: white;
     text-align: center;
+    background-attachment: fixed;
 
 }
 #linkedin:visited{
@@ -55,7 +56,7 @@ justify-content: center;
     margin: 0 auto;
     width: 850px;
     padding: 3px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .goals {
